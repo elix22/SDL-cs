@@ -16,9 +16,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Runtime.CompilerServices;
-using static bottlenoselabs.SDL.Runtime;
+using static SDL2.SDL.Runtime;
 
-namespace bottlenoselabs
+namespace SDL2
 {
     public static unsafe partial class SDL
     {
