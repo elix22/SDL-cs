@@ -43,7 +43,7 @@ function set_target_build_os {
 function set_target_build_arch {
     if [[ -z "$TARGET_BUILD_ARCH" || $TARGET_BUILD_ARCH == "default" ]]; then
         if [[ "$TARGET_BUILD_OS" == "macos" ]]; then
-            TARGET_BUILD_ARCH="x86_64;arm64"
+            TARGET_BUILD_ARCH="x86_64"
         else
             TARGET_BUILD_ARCH="$(uname -m)"
         fi
